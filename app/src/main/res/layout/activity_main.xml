@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:context="com.example.hp.quizapp.MainActivity">
+
+        <LinearLayout
+            android:id="@+id/x"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/Q1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/Q1"
+                android:textSize="20sp" />
+
+            <RadioGroup
+                android:id="@+id/Groub1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <RadioButton
+                    android:id="@+id/Q1A"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/Q1A1" />
+
+                <RadioButton
+                    android:id="@+id/Q1B"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/Q1A2" />
+
+                <RadioButton
+                    android:id="@+id/Q1C"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/Q1A3" />
+
+                <RadioButton
+                    android:id="@+id/Q1D"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/Q1A4" />
+            </RadioGroup>
+
+
+            <TextView
+                android:id="@+id/Q2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/Q2" />
+
+            <RadioGroup
+                android:id="@+id/Groub2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <RadioButton
+                    android:id="@+id/Q2A"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/Q2A1" />
+
+                <RadioButton
+                    android:id="@+id/Q2B"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/Q2A2" />
+
+                <RadioButton
+                    android:id="@+id/Q2C"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/Q2A3" />
+
+                <RadioButton
+                    android:id="@+id/Q3D"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/Q2A4" />
+            </RadioGroup>
+
+            <TextView
+                android:id="@+id/Q3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/Q3" />
+
+            <CheckBox
+                android:id="@+id/Check1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/Q3A1" />
+
+            <CheckBox
+                android:id="@+id/Check2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/Q3A2" />
+
+            <CheckBox
+                android:id="@+id/Check3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/Q3A3" />
+
+            <CheckBox
+                android:id="@+id/Check4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/Q3A4" />
+
+            <TextView
+                android:id="@+id/Quest4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/Q4"
+                android:textSize="40sp" />
+
+
+            <EditText
+                android:id="@+id/TheQuestion"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/submit"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/x"
+            android:layout_marginBottom="@dimen/marginVertical"
+            android:layout_marginTop="@dimen/marginVertical"
+            android:text="@string/INSERT" />
+    </RelativeLayout>
+
+</ScrollView>

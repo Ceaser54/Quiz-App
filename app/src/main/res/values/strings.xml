@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">Quiz App</string>
+    <string name="INSERT">Insert</string>
+    <string name="SCORE">SCORE NOW IS:</string>
+    <string name="YAAH">YAAH</string>
+    <string name="Q1">Q1 SDK is appreciate of?</string>
+    <string name="Q2">Q2 Android Studio is?</string>
+    <string name="Q3">Q3 Mainifests control of?</string>
+    <string name="Q4">Q4 Udacity is?</string>
+    <string name="Q1A1">Software development kit</string>
+    <string name="Q1A2">Sun Disk Kitkat</string>
+    <string name="Q1A3">Software Dream knowledge</string>
+    <string name="Q1A4">Soft Drink Karamel</string>
+    <string name="Q2A1">Platform</string>
+    <string name="Q2A2">Commuunity</string>
+    <string name="Q2A3">Professional</string>
+    <string name="Q2A4">Simulator</string>
+    <string name="Q3A1">Permessions</string>
+    <string name="Q3A2">Version of APK</string>
+    <string name="Q3A3">Code</string>
+    <string name="Q3A4">XML</string>
+</resources>
